@@ -1,0 +1,17 @@
+<?php
+$d = date("Y/m/d");
+$moji = <<< eot
+<html>
+ <head>
+  <title>HOKKAIDO</title>
+ </head>
+ <body>
+  <h1>HOKKAIDO</h1>
+   <p><img src="/mountain.png" width="300" height="170" alt="yama"></p>
+   <hr>
+   <a href="https://www3.jeed.go.jp/hokkaido/poly/">hokkaido_poly</a>
+ </body>
+</html>
+eot;
+print $moji;
+?>
