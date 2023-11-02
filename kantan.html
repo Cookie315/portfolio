@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+</head>
+<body>
+    <!--メッセージ表示-->
+<form method="POST" action = "kantan_select.php">
+メッセージを表示します<br>
+<input type ="submit" value="表示">
+</form>
+<hr>
+<!--メッセージ表示-->
+<form method="POST" action="kantan_insert.php">
+名前：<input type = "text" name = "a1"><br>
+メッセージ:<input type = "text" name = "a2" size = 60><br>
+<input type = "submit" value = "登録">
+</form>
+<!--メッセージ削除-->
+<form method = "POST" action ="kantan_delete.php">
+削除番号:<input type = "text" name = "b1"><br>
+<input type = "submit" value = "削除"> 
+</form>
+<!--メッセージ検索-->
+<form method="POST" action = "kantan_search.php">
+    キーワード:<input type = "text" name = "c1"><br>
+    <input type = "submit" value = "検索">
+</form>
+</body>
+</html>
