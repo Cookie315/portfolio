@@ -1,0 +1,227 @@
+
+body {
+  
+  background-image: 
+  linear-gradient(140deg, 
+  #fdfdfd6c, 
+  #fbfdfb9d 40%, 
+  #ffffff94 60%, 
+  #ffffff88), 
+  url("https://res.cloudinary.com/dlalatngt/image/upload/f_auto,q_auto/jfo/production/uploads/4c6e240c-4b58-4cf1-80aa-93f21d7b7fa8.jpeg"); 
+  background-size: 2000px 1030px;    
+  background-repeat: no-repeat;
+  background-position: auto;
+
+}
+.btn-square-shadow {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  
+} 
+ .btn-square-shadow:hover {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #7d98d3;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square-shadow:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  background: #3065d8;/*ボタン色*/
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+.btn-square-shadow-red {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #d86666;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #956262;
+  border-radius: 3px;
+  
+} 
+ .btn-square-shadow-red:hover {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #d37d7d;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #956262;
+  border-radius: 3px;
+}
+.btn-square-shadow-red:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  background: #d83030;/*ボタン色*/
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
+}
+#page {
+  background: pink;
+  width: 50px;
+  height: 0;
+  position:relative;
+  top: 0px;
+  left:890px;
+}
+
+#header {
+  background-color: lightblue;
+}
+
+#content {
+  width: 400px;
+  height: 0%;
+  float: left;
+  background-color: lightpink;
+}
+
+
+#footer {
+  clear: both;
+  background-color: lightblue;
+}
+@media screen and (max-width: 1600px) {
+  #page {
+    width: 50px;
+    height: 0;
+    position:relative;
+    top: 0px;
+    left:180px;
+    width: 1140px;
+  }
+
+  #content {
+    width: 100%;
+    float: left;
+  }
+
+  #sidebar {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  #page {
+    width: 100%;
+    
+  }
+
+  #content {
+    width: 50px;
+    height: 0;
+    position:relative;
+    top: 0px;
+    left:180px;
+    width: 935px;
+  }
+
+  #sidebar {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  #page {
+    width: 100%;
+    
+  }
+
+  #content {
+    width: 50px;
+    height: 0;
+    position:relative;
+    top: 0px;
+    left:0px;
+    width: 935px;
+  }
+
+  #sidebar {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  #page {
+    width: 100%;
+    
+  }
+
+  #content {
+    width: 50px;
+    height: 0;
+    position:relative;
+    top: 0px;
+    left:0px;
+    width: 935px;
+  }
+
+  #sidebar {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #page {
+    width: 100%;
+  }
+
+  #content {
+    width: 50px;
+    height: 0;
+    position:relative;
+    top: 0px;
+    left:0px;
+    width: 935px;
+  }
+
+  #sidebar {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #page {
+    width: 100%;
+    
+  }
+
+  #content {
+    width: 50px;
+    height: 0;
+    position:relative;
+    top: 0px;
+    left:-180px;
+    width: 935px;
+  }
+
+  #sidebar {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #page {
+    width: 100%;
+    
+  }
+
+  #content {
+    width: 50px;
+    height: 0;
+    position:relative;
+    top: 0px;
+    left:-425px;
+    width: 935px;
+  }
+
+  #sidebar {
+    width: 30%;
+  }
+}
+
