@@ -11,7 +11,10 @@ if(isset($_POST["name"])){
     $ID = htmlspecialchars($_POST["id"]);//IDの取得
     $PASS1 = htmlspecialchars($_POST["pass1"]);//パスワード一つ目取得
     $PASS2 = htmlspecialchars($_POST["pass2"]);//パスワード二つ目取得
-    
+    $ch = "";
+    if(isset($_POST["ch"])){
+    $ch = htmlspecialchars($_POST["ch"]);
+    }
     $smarty->assign('text1',$NAME);
     $smarty->assign('text2',$ID);
 
@@ -21,7 +24,11 @@ if(isset($_POST["name"])){
 
 
     //どれかに空欄がある場合
-    if($PASS1 == null || $PASS2 == null ||$ID == null ||$NAME == null){
+    if($ch == "ch"){
+        $smarty->assign('msg','<br>');
+        $smarty->display('../templates/registation.tpl');  
+    }
+    elseif($PASS1 == null || $PASS2 == null ||$ID == null ||$NAME == null){
         $smarty->assign('msg','記入していない欄があります。');
         $smarty->display('../templates/registation.tpl');
     }

@@ -38,6 +38,7 @@
                                     <input type="hidden" name="id"value={$id}>
                                     <input type="hidden" name="pass1"value="">
                                     <input type="hidden" name="pass2"value="">
+                                    <input type="hidden" name="ch"value="ch">
                                     <input type="submit" class="btn rounded-0 btn-square-shadow"value="登録内容変更"></div> 
                                 </form>
                                 

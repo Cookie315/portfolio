@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2023-12-15 22:30:31
+/* Smarty version 4.3.4, created on 2023-12-20 13:15:10
   from 'C:\xampp\htdocs\ファイル共有\.php\..\templates\check.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_657c54f76dc906_36439545',
+  'unifunc' => 'content_65826a4e978721_47739322',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4ae3641074e3b88fbb6e68dce28405e56ab41ccb' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ファイル共有\\.php\\..\\templates\\check.tpl',
-      1 => 1702646260,
+      1 => 1703045677,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_657c54f76dc906_36439545 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65826a4e978721_47739322 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
@@ -28,7 +28,7 @@ function content_657c54f76dc906_36439545 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"><?php echo '</script'; ?>
 >
-    <link href="../.css/style2 copy.css" rel="stylesheet" type="text/css">
+    <link href="../.css/style.css" rel="stylesheet" type="text/css">
     <title>登録確認画面</title>
 </head>
 <body>
@@ -70,6 +70,7 @@ function content_657c54f76dc906_36439545 (Smarty_Internal_Template $_smarty_tpl)
 >
                                     <input type="hidden" name="pass1"value="">
                                     <input type="hidden" name="pass2"value="">
+                                    <input type="hidden" name="ch"value="ch">
                                     <input type="submit" class="btn rounded-0 btn-square-shadow"value="登録内容変更"></div> 
                                 </form>
                                 

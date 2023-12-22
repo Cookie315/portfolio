@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2023-12-15 22:20:40
+/* Smarty version 4.3.4, created on 2023-12-20 12:39:39
   from 'C:\xampp\htdocs\ファイル共有\.php\..\templates\forget.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_657c52a83d2253_87728344',
+  'unifunc' => 'content_658261fbddb6f6_71319663',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0bfc3f20b41ea5a02099f3c04b5540935d40d445' => 
     array (
       0 => 'C:\\xampp\\htdocs\\ファイル共有\\.php\\..\\templates\\forget.tpl',
-      1 => 1702646435,
+      1 => 1703039135,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_657c52a83d2253_87728344 (Smarty_Internal_Template $_smarty_tpl) {
+function content_658261fbddb6f6_71319663 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <head>
     <meta charset="UTF-8">   
@@ -28,7 +28,7 @@ function content_657c52a83d2253_87728344 (Smarty_Internal_Template $_smarty_tpl)
     <?php echo '<script'; ?>
  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"><?php echo '</script'; ?>
 >
-    <link href="../.css/style2 copy.css" rel="stylesheet" type="text/css">
+    <link href="../.css/style.css" rel="stylesheet" type="text/css">
     <title>パスワード確認画面</title>
 </head>
 <body>
